@@ -1,0 +1,562 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[
+11pt,
+master, % тип документа
+subf, % подключить и настроить пакет subfig для вложенной нумерации рисунков
+href, % подключить и настроить пакет hyperref
+colorlinks=true, % цветные гиперссылки
+times, % шрифт Times как основной
+%fixint=false % отключить прямые знаки интегралов
+]{disser}
+\usepackage[left=25mm, top=20mm, right=10mm, bottom=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath,amssymb,cmap} % cmap для кодировки шрифтов в pdf
+\usepackage{pdfpages} % вставляем pdf файлы
+\usepackage{indentfirst} % отделять первую строку раздела абзацным отступом
+\usepackage{titletoc} % убираем отступ перед "Оглавление"
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{verbatim} % для оформления кода
+\usepackage{pdfsync} % установка соответствия документ - код
+\graphicspath{{./Img/}}
+
+\setlength\parindent{5ex} % абзацный отступ равный пяти строчным буквам основного шрифта
+\pagestyle{plain} % включаем нумерацию
+\setcounter{tocdepth}{2} % включать подсекции в оглавление
+\linespread{1.3} % полуторный интервал
+
+
+% Номера страниц снизу и по центру
+\pagestyle{footcenter}
+\chapterpagestyle{footcenter}
+
+\begin{document}
+	
+	\pagestyle{empty}
+	\begin{center}
+		
+		\noindent  Федеральное государственное бюджетное образовательное учреждение\\
+		высшего профессионального образования\\
+		
+		Московский государственный технический университет им. Н.Э. Баумана \\
+		Факультет <<Фундаментальные науки>>\bigskip\\
+		
+		\vfill
+		
+		Домашнее задание\\
+		по курсу «Вычислительная физика»\\
+		на тему: «Решение интегральных уравнений»\\
+		
+		
+		\vfill
+		\vfill
+		\begin{flushright}
+			\begin{tabular}{ll}
+				Выполнили: & студенты группы ФН4-72Б     \\
+				& Хижик А.И., Мистрюкова Л.А.,  \\
+				Проверил:  & доцент, к.физ.-мат.н.       \\
+				& Хасаншин Р.Х.
+			\end{tabular}
+		\end{flushright}
+		\vfill
+		\begin{center}
+			Москва, $2019$
+		\end{center}
+		
+	\end{center}
+	\pagebreak
+	
+	
+	\pagestyle{plain}
+	\tableofcontents
+
+\section{Интегральные уравнения Фредгольма}
+Решите неоднородные уравнения Фредгольма второго рода методом последовательных приближений (найти $y_4(x)$ и оценить погрешность), методом вырожденного ядра и с использованием резольвенты.
+
+\subsection{$\displaystyle y(x) = \lambda \int_{0}^{1} x s y(s)ds + x$}
+
+$\displaystyle K(x,s) = K_1(x,s) = xs$, $f(x) = \varphi_0(x) = x$
+
+\subsubsection{Метод последовательных приближений}
+
+\fbox{
+ \addtolength{\linewidth}{-40\fboxsep}
+ \addtolength{\linewidth}{-40\fboxrule}
+ \begin{minipage}{\linewidth}
+  \begin{equation}
+    \varphi_0(x) = f(x), \;\; \varphi_m(x) = \int_{a}^{b} K(x,s) \varphi_{m-1}(s) ds = \int_{a}^{b} K_m(x,s) f(s)ds
+  \end{equation}
+    \begin{equation}
+    K_m(x,s) = \int_{a}^{b} K(x,t)K_{m-1}(t,s)dt
+  \end{equation}
+  \begin{equation}
+    y(x) = \sum_{m=0}^{\infty} \lambda^m \varphi_m(x)
+  \end{equation}
+ \end{minipage}
+}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{1} x t^2 s dt &= \frac{1}{3} xs\\
+        K_3 = \int_{0}^{1} \frac{1}{3} x t^2 s dt &= \frac{1}{9} xs
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = \frac{1}{3^{m-1}} xs \Rightarrow \varphi_m(x) = \frac{1}{3^m}x
+\end{equation}
+
+$$y(x) = x \sum_{m=0}^{\infty} \left(\frac{\lambda}{3}\right)^m = \frac{3x}{3-\lambda}$$
+
+$$y_4(x) = \frac{\left(3 - \frac{\lambda^5}{81}\right)x}{3 - \lambda}$$
+
+$$\Delta = \frac{\lambda^5 x}{243-81 \lambda}$$
+
+\subsubsection{Резольвента}
+
+\fbox{
+ \addtolength{\linewidth}{-80\fboxsep}
+ \addtolength{\linewidth}{-80\fboxrule}
+ \begin{minipage}{\linewidth}
+  \begin{equation}
+    R(x,s,\lambda) = \sum_{m=1}^{\infty} \lambda^{m-1} K_m(x,s)
+  \end{equation}
+  \begin{equation}
+    y(x) = \lambda \int_{a}^{b} R(x,s,\lambda) f(s) ds + f(x)
+  \end{equation}
+ \end{minipage}
+}
+
+
+$$R(x,s,\lambda) = xs \sum_{m=1}^{\infty} \left(\frac{\lambda}{3}\right)^{m-1} = \frac{3 xs}{3 - \lambda} $$
+$$y(x) = \frac{3x}{3 - \lambda}$$
+
+\subsubsection{Метод вырожденного ядра}
+
+\fbox{
+ \addtolength{\linewidth}{-30\fboxsep}
+ \addtolength{\linewidth}{-30\fboxrule}
+ \begin{minipage}{\linewidth}
+  \begin{equation}
+    K(x,s) = \sum_{i=1}^{n} \alpha_i(x) \beta_i(s)
+  \end{equation}
+  \begin{equation}
+    c_i - \lambda \sum_{j=1}^{n} a_{ij} c_j = f_i, \;\; a_{ij} = \int_{a}^{b} \alpha_i(s) \beta_j(s) ds, \;\; f_i = \int_{a}^{b} f(s) \beta_i(s) ds, \;\; i = \overline{1,n}
+  \end{equation}
+  \begin{equation}
+    y(x) = \lambda \sum_{i=1}^{n} c_i \alpha_i(x) + f(x)
+  \end{equation}
+ \end{minipage}
+}
+
+$$\alpha(x) = x,\;\beta(s) = s \rightarrow a_{11} = \int_{0}^{1} s^2 ds = \frac{1}{3}, \; f_1 = \int_{0}^{1} s^2 ds = \frac{1}{3} \Rightarrow c_1 - \lambda a_{11} c_1 = f_1 \Longleftrightarrow c_1 = \frac{1}{3 - \lambda}$$
+
+$$y(x) = \frac{3x}{3 - \lambda}$$
+
+\subsection{$\displaystyle y(x) = \lambda \int_{0}^{1}  y(s)ds +  \mathrm{sin} (\pi x)$}
+
+$K(x,s) = K_1(x,s) = 1$, $f(x)= \varphi_0(x) = \sin(\pi x)$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 &= 1\\
+        K_3 &= 1
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = 1 \Rightarrow \varphi_m(x) = \frac{2}{\pi}
+\end{equation}
+
+$$y(x) = \sin(\pi x) + \frac{2}{\pi} \sum_{m=1}^{\infty} \lambda^m = \sin(\pi x) + \frac{2 \lambda}{\pi(1 - \lambda)}$$
+
+$$y_4(x) = \frac{2 \lambda  \left(\lambda^4-1\right)}{\pi  (\lambda -1)}+\sin(\pi  x)$$
+
+$$\Delta = \frac{2\lambda ^5}{\pi(1 -\lambda)}$$
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = \sum_{m=1}^{\infty} \lambda^{m-1} = \frac{1}{1 - \lambda}$$
+
+$$y(x) = \frac{2\lambda}{\pi(1 - \lambda)} + \sin(\pi x)$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$$\alpha(x) = 1,\;\beta(s) = 1 \rightarrow a_{11} = \int_{0}^{1} ds = 1, \; f_1 = \int_{0}^{1} \sin(\pi x) ds = \frac{2}{\pi} \Rightarrow c_1 - \lambda a_{11} c_1 = f_1 \Longleftrightarrow c_1 = \frac{2}{\pi(1-\lambda)}$$
+
+$$y(x) = \frac{2\lambda}{\pi(1 - \lambda)} + \sin(\pi x)$$
+
+\subsection{$\displaystyle y(x) = \lambda \int_{0}^{1} \frac{x}{s^2 + 1} y(s)ds + x^2 + 1$}
+
+$K(x,s) = K_1(x,s) = \frac{x}{s^2 + 1}$, $f(x)= \varphi_0(x) = x^2 + 1$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{1} \frac{xt}{(t^2 + 1)(s^2 + 1)} &= \frac{\log(2)}{2} \frac{x}{s^2 + 1}\\
+        K_3 = \int_{0}^{1} \frac{\log(2)}{2} \frac{xt}{(t^2 + 1)(s^2 + 1)} &= \left(\frac{\log(2)}{2}\right)^2 \frac{x}{s^2 + 1}
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = \left(\frac{\log(2)}{2}\right)^{m-1} \frac{x}{s^2 + 1}
+\end{equation}
+
+$\displaystyle \Rightarrow \varphi_m(x) = \left(\frac{\log(2)}{2}\right)^{m-1} x$
+
+$$y(x) = x^2 + 1 + x\sum_{m=1}^{\infty} \lambda^m \left(\frac{\log(2)}{2}\right)^{m-1} = x^2 + \frac{2 \lambda x}{2 - \lambda \log(2)} + 1$$
+
+$$y_4(x) = x^2+\frac{2 \lambda  x \left(\frac{1}{16} \lambda ^4 \log ^4(2)-1\right)}{\lambda  \log(2)-2}+1$$
+
+$$\Delta = \frac{\lambda ^5 x \log ^4(2)}{8(2 - \lambda  \log (2))}$$
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = \sum_{m=1}^{\infty} \left(\frac{\lambda \log(2)}{2}\right)^{m-1} \frac{x}{s^2 + 1}$$
+
+$$y(x) = \lambda x \sum_{m=1}^{\infty} \left(\frac{\lambda \log(2)}{2}\right)^{m-1} + x^2 + 1 = x^2 + \frac{2 \lambda x}{2 - \lambda \log(2)} + 1$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$$\alpha(x) = x,\;\beta(s) = \frac{1}{s^2+1} \rightarrow a_{11} = \int_{0}^{1} \frac{s}{s^2+1} ds = \frac{\log(2)}{2}, \; f_1 = \int_{0}^{1} ds = 1 \Rightarrow$$
+$$\Rightarrow c_1 - \lambda a_{11} c_1 = f_1 \Longleftrightarrow c_1 = \frac{2}{2 - \lambda \log(2)}$$
+
+$$y(x) = \frac{2\lambda x}{2 - \lambda \log(2)} + x^2 + 1$$
+
+\subsection{$\displaystyle y(x) = \lambda \int_{0}^{\pi} x~ \mathrm{sin} (2s) y(s)ds + \mathrm{cos}(2x)$}
+
+$K(x,s) = K_1(x,s) = x \sin(2s)$, $f(x)= \varphi_0(x) = \cos(2x)$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{\pi} x t \sin(2t) \sin(2s) dt &= - \frac{\pi}{2} x\sin(2s)\\
+        K_3 = \int_{0}^{\pi} \left(-\frac{\pi}{2}\right) x t \sin(2t) \sin(2s) dt &= \left(\frac{\pi}{2}\right)^2 x\sin(2s)
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = \left(-\frac{\pi}{2}\right)^{m-1} x\sin(2s)  \Rightarrow \varphi_m(x) = 0
+\end{equation}
+
+$$y(x) = \cos(2x)$$
+
+$$y_4(x) = \cos(2x)$$
+
+$$\Delta = 0$$
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = \sum_{m=1}^{\infty} \left(-\frac{\pi \lambda}{2}\right)^{m-1} x \sin(2s)$$
+
+$$y(x) = \cos(2x)$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$$\alpha(x) = x,\;\beta(s) = \sin(2s) \rightarrow a_{11} = \int_{0}^{\pi} s \sin(2s) ds = -\frac{\pi}{2}, \; f_1 = \int_{0}^{1} \cos(2s) \sin(2s) ds = 0 \Rightarrow$$
+$$\Rightarrow c_1 - \lambda a_{11} c_1 = f_1 \Longleftrightarrow c_1 = 0$$
+
+$$y(x) = \cos(2x)$$
+
+\subsection{$\displaystyle y(x) = \lambda \int_{0}^{2\pi} \mathrm{sin} (x+s) y(s)ds + 2$}
+
+$K(x,s) = K_1(x,s) = \sin(x+s)$, $f(x)= \varphi_0(x) = 2$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{2\pi} \sin(x+t) \sin(t+s) dt &= \pi \cos(s-x)\\
+        K_3 = \int_{0}^{2\pi} \pi \sin(x+t) \cos(s-t) dt &= \pi^2 \sin(s+x)
+       \end{aligned}
+ \right\}
+ \qquad \varphi_2(x) =0, \;\; \varphi_3(x) = 0
+\end{equation}
+
+$$y(x) = 2$$
+
+$$y_4(x) = 2$$
+
+$$\Delta = 0$$
+
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = 0$$
+
+$$y(x) = 2$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$\displaystyle K(x,s) = \sin(x+s) = \cos(x) \sin(s) + \cos(s) \sin(x)$
+
+$\displaystyle\alpha_1(x) = \cos(x),\;\;\beta_1(s) = \sin(s),\;\;\alpha_2(x) = \sin(x),\;\;\beta_2(s) = \cos(s)  \rightarrow a_{11} = a_{22} = 0,\\
+a_{12} = a_{21} = \pi,\;\; f_1 = f_2 = 0 \Rightarrow c_i - \lambda a_{ij} c_j = f_i,\;\; i,j = 1,2 \Longleftrightarrow c_1 = c_2 = 0$
+
+$$y(x) = 2$$
+
+\subsection{$\displaystyle y(x) = \int_{0}^{\frac{\pi}{2}} \mathrm{sin} (x) \mathrm{cos}(s) y(s)ds + 1$}
+
+$K(x,s) = K_1(x,s) = \sin(x)\cos(s)$, $f(x)= \varphi_0(x) = 1$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{\frac{\pi}{2}} \sin(x)\cos(t)\sin(t)\cos(s)dt &= \frac{1}{2} \sin(x) \cos(s)\\
+        K_3 = \int_{0}^{\frac{\pi}{2}} \frac{1}{2}\sin(x)\cos(t)\sin(t)\cos(s) dt &= \frac{1}{4} \sin(x)\cos(s)
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = \frac{1}{2^{m-1}} \cos(s)\sin(x)
+\end{equation}
+
+$\displaystyle\Rightarrow \varphi_m(x) = \frac{\sin(x)}{2^{m-1}}$
+
+\newpage
+$$y(x) = 1 + \sin(x)\sum_{m=1}^{\infty}\frac{1}{2^{m-1}} = 2\sin(x) + 1$$
+
+$$y_4(x) = \frac{15 \sin (x)}{8}+1$$
+
+$$\Delta = \frac{\sin(x)}{8}$$
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = \cos(s)\sin(x)\sum_{m=1}^{\infty} \frac{1}{2^{m-1}} = 2\cos(s)\sin(x)$$
+
+$$y(x) = 2\sin(x) + 1$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$\displaystyle\alpha(x) = \sin(x),\;\;\beta(s) = \cos(s) \rightarrow a_{11} = \int_{0}^{\frac{\pi}{2}} \sin(s) \cos(s) ds = \frac{1}{2}, \;\; f_1 = \int_{0}^{\frac{1}{2}} \cos(s)ds = 1 \Rightarrow c_i - a_{ij} c_j = f_i \Longleftrightarrow c_1 = 2$
+
+$$y(x) = 2\sin(x) + 1$$
+
+\subsection{$\displaystyle y(x) = \frac{1}{2} \int_{0}^{1} x~ \mathrm{exp}(s) y(s)ds + \mathrm{exp}(-x)$}
+
+$K(x,s) = K_1(x,s) = x\exp(s)$, $f(x)= \varphi_0(x) = \exp(-x)$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{1} x\exp(t)t\exp(s) dt  &= x\exp(s)\\
+        K_3 = \int_{0}^{1} x\exp(t)t\exp(s) dt &= x\exp(s)
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = x\exp(s) \Rightarrow \varphi_m(x) = x
+\end{equation}
+
+$$y(x) = \exp(-x) + x\sum_{m=1}^{\infty} \frac{1}{2^m} = \exp(-x) + x$$
+
+$$y_4(x) = \frac{15 x}{16}+\exp(-x)$$
+
+$$\Delta = \frac{x}{16}$$
+
+\newpage
+\subsubsection{Резольвента}
+
+$$R\left(x,s,\frac{1}{2}\right) = x\exp(s)\sum_{m=1}^{\infty}\frac{1}{2^{m-1}} = 2x\exp(s)$$
+
+$$y(x) = x + \exp(-x)$$
+
+\subsubsection{Метод вырожденного ядра}
+
+$\displaystyle\alpha(x) = x,\;\;\beta(s) = \exp(s) \rightarrow a_{11} = \int_{0}^{1} s \exp(s) ds = 1, \;\; f_1 = \int_{0}^{1} ds = 1 \Rightarrow c_1 - a_{11} c_1 = f_1 \Longleftrightarrow\\
+\Longleftrightarrow c_1 = 2$
+
+$$y(x) = x + \exp(s)$$
+
+\subsection{$\displaystyle y(x) =  \int_{0}^{\frac{1}{2}} y(s)ds + x$}
+
+$K(x,s) = K_1(x,s) = 1$, $f(x)= \varphi_0(x) = x$
+
+\subsubsection{Метод последовательных приближений}
+
+\begin{equation}
+ \left.\begin{aligned}
+        K_2 = \int_{0}^{\frac{1}{2}} dt  &= \frac{1}{2}\\
+        K_3 = \int_{0}^{\frac{1}{2}} \frac{1}{2} dt &= \frac{1}{4}
+       \end{aligned}
+ \right\}
+ \qquad \longrightarrow K_m = \frac{1}{2^{m-1}} \Rightarrow \varphi_m(x) = \frac{1}{2^{m+2}}
+\end{equation}
+
+$$y(x) = x + \sum_{m=1}^{\infty}\frac{1}{2^{m+2}} = x + \frac{1}{4}$$
+
+$$y_4(x) = x + \frac{15}{64}$$
+
+$$\Delta = \frac{1}{64}$$
+
+\subsubsection{Резольвента}
+
+$$R(x,s,\lambda) = \sum_{m=1}^{\infty} \frac{1}{2^{m+1}} = \frac{1}{2}$$
+
+$$y(x) = \frac{1}{4} + x$$
+
+\newpage
+\subsubsection{Метод вырожденного ядра}
+
+$\displaystyle\alpha(x) = 1,\;\;\beta(s) = 1 \rightarrow a_{11} = \int_{0}^{\frac{1}{2}} ds = \frac{1}{2}, \;\; f_1 = \int_{0}^{\frac{1}{2}} s ds = \frac{1}{8} \Rightarrow c_i - a_{ij} c_j = f_i \Longleftrightarrow c_1 = \frac{1}{4}$
+
+$$y(x) = \frac{1}{4} + x$$
+
+\section{Интегральные уравнения Вольтерра}
+
+\subsection{Задание 1}
+Преобразуйте интегральные уравнения Вольтерра первого рода в уравнения Вольтерра второго рода и решите их.
+\subsubsection{$\displaystyle \int_{0}^{x}  \mathrm{sin}(x-s) y(s)ds =  \mathrm{exp}\left(\frac{x^2}{2} - 1\right)$}
+
+$$\left(\int_{0}^{x} \sin(x-s) y(s) ds\right)_{xx} = \left(\int_{0}^{x} \cos(s-x) y(s) ds\right)_x = y(x) + \int_{0}^{x} \sin(s-x) y(s) ds$$
+
+$$\left(\exp\left(\frac{x^2}{2}\right)\right)_{xx} = \left(x \exp\left(\frac{x^2}{2}\right)\right)_x = \left(x^2 + 1\right)\exp\left(\frac{x^2}{2}\right)$$
+
+$\displaystyle \Rightarrow y(x) + \int_{0}^{x} \sin(s-x) y(s) ds = \left(x^2 + 1\right)\exp\left(\frac{x^2}{2}\right)$
+
+$\displaystyle\left(y(x) = \left(x^2 + 1\right)\exp\left(\frac{x^2}{2}\right) - \int_{0}^{x} \sin(s-x) y(s) ds\right)_{xx} \rightarrow y''(x) = y(x) + \int_{0}^{x} \sin(s-x) y(s) ds + \left(x^4 + 6 x^2 + 3\right) \exp\left(\frac{x^2}{2}\right) = \left(x^4 + 7x^2 + 4\right)\exp\left(\frac{x^2}{2}\right)$
+
+$$y'(x) = \int_{0}^{x} \left(t^4 + 7t^2 + 4\right)\exp\left(\frac{t^2}{2}\right)dt = (x^2 + 4)x\exp\left(\frac{x^2}{2}\right)$$
+
+$$y(x) = \int_{0}^{x} (x^2 + 4)x\exp\left(\frac{x^2}{2}\right)dx - 1 = \left(x^2 + 2\right)\exp\left(\frac{x^2}{2}\right) - 1$$
+
+\subsubsection{$\displaystyle \int_{0}^{x}  \mathrm{exp}(x-s) y(s)ds =  \mathrm{sin}(x)$}
+
+$$\left(\int_{0}^{x} \exp(x-s) y(s) ds\right)_{x} = y(x) + \int_{0}^{x} \exp(x-s) y(s) ds$$
+
+$$\left( \sin(x) \right)_{x} = \cos(x)$$
+
+$\displaystyle \Rightarrow y(x) = \cos(x) - \int_{0}^{x} \exp(x-s) y(s) ds$
+
+\begin{equation*}
+ \left.\begin{aligned}
+        K &= K_1 = -\exp(x-s)\\
+        K_2 &= \int_{s}^{x} -\exp(x-t)\exp(t-s) dt  = (x-s)\exp(x-s)\\
+        K_3 &= \int_{s}^{x} -\exp(x-t)(t-s)\exp(t-s) dt = -\frac{1}{2}(x-s)^2 \exp(x-s)\\
+        K_4 &= \int_{s}^{x} \frac{1}{2}\exp(x-t)(t-s)^2 \exp(t-s) dt = \frac{1}{6}(x-s)^4 \exp(x-s)
+       \end{aligned}
+ \right\}
+ \qquad K_m = (-1)^{m}\frac{(x-s)^{m-1}}{(m-1)!}\exp(x-s)
+\end{equation*}
+
+
+
+$$R(x,s) = \exp(x-s)\sum_{m=1}^{\infty} (-1)^{m}\frac{(x-s)^{m-1}}{(m-1)!} = -1$$
+
+$$y(x) = -\sin(x) + \cos(x)$$
+
+\subsection{Задание 2}
+Вычислить резольвенту для ядра интегрального уравнения Вольтерра второго рода, если ядро уравнения $K(x,s) = \exp(x-s)$.
+
+\begin{equation*}
+ \left.\begin{aligned}
+        K &= K_1 = \exp(x-s)\\
+        K_2 &= \int_{s}^{x} \exp(x-t)\exp(t-s) dt  = (x-s)\exp(x-s)\\
+        K_3 &= \int_{s}^{x} \exp(x-t)(t-s)\exp(t-s) dt = \frac{1}{2}(x-s)^2 \exp(x-s)\\
+        K_4 &= \int_{s}^{x} \frac{1}{2}\exp(x-t)(t-s)^2 \exp(t-s) dt = \frac{1}{6}(x-s)^3 \exp(x-s)
+       \end{aligned}
+ \right\}
+ \qquad K_m = \frac{(x-s)^{m-1}}{(m-1)!}\exp(x-s)
+\end{equation*}
+
+$$R(x,s) = \exp(x-s)\sum_{m=1}^{\infty} \frac{(x-s)^{m-1}}{(m-1)!} = \exp(2(x-s))$$
+
+\subsection{Задание 3}
+С помощью эквивалентного дифференциального уравнения решить интегральное уравнение Вольтерра второго рода
+$$y(x) = \int_{0}^{x} x s y(s) ds + x$$
+\begin{enumerate}
+  \item $$\left(\int_{0}^{x} xsy(s) ds\right)_{xx} = \left(x^2 y(x) + \int_{0}^{x} sy(s) ds\right)_x = x^2 y'(x) + 3xy(x)$$
+
+$$y''(x) - x^2 y'(x) - 3xy(x) = 0, \;\; y(0) = 0, \;\; y'(0) = 1$$
+
+$$y(x) = x\exp\left(\frac{x^3}{3}\right)$$
+
+  \item
+  \fbox{
+ \addtolength{\linewidth}{-30\fboxsep}
+ \addtolength{\linewidth}{-30\fboxrule}
+ \begin{minipage}{\linewidth}
+  \begin{equation}
+    K(x,s) = \sum_{i=1}^{m} \alpha_i(x) \beta_i(s), \;\; y(x) = \sum_{i=1}^{m} \alpha_i(x) \int_{a}^{x} \beta_i(s) y(s) ds + f(x)
+  \end{equation}
+  \begin{equation}
+    \upsilon'_i(x) = \beta_i(x)\left[\sum_{i=1}^{m} \alpha_i(x) \upsilon_i(x) + f(x)\right],\;\; \upsilon_i(a) = 0
+  \end{equation}
+  \begin{equation}
+    y(x) = \frac{\upsilon'_i(x)}{\beta_i(x)}
+  \end{equation}
+ \end{minipage}
+}
+  $\displaystyle\alpha(x) = x,\;\; \beta(s) = s,\;\; f(x) = x$
+  $$\upsilon(x) = \int_{0}^{x} s y(s) ds$$
+  $$\upsilon'(x) = x[x\upsilon(x) + x] = x^2 \upsilon(x) + x^2, \;\; \upsilon(0) = 0$$
+$$\upsilon^o(x) = C\exp\left(\frac{x^3}{3}\right), \;\; C'(x)\exp\left(\frac{x^3}{3}\right) = x^2 \Rightarrow C(x) = K - \exp\left(-\frac{x^3}{3}\right)$$
+$$\upsilon(x) = C(x)\exp\left(\frac{x^3}{3}\right) = 1 - \exp\left(\frac{x^3}{3}\right)$$
+$$y(x) = \frac{\upsilon(x)}{\beta(x)} = x\exp\left(\frac{x^3}{3}\right)$$
+\end{enumerate}
+
+\subsection{Задание 4}
+С помощью эквивалентного дифференциального уравнения решить интегральное уравнение Вольтерра второго рода
+$$y(x) = \sum_{i=1}^{m} \alpha_i(x) \int_{a}^{x} \beta_i(s) y(s) ds + f(x)$$
+при $m=1$ задано $\alpha_1(x) = -\frac{1}{x \cos(x)}$, $\beta_1(s) = \cos(s)$, $f(x) = \frac{x^2}{\cos(x)}$.
+
+$$y(x) = -\frac{1}{x\cos(x)}\int_{a}^{x} \cos(s)y(s)ds + \frac{x^2}{\cos(x)}$$
+
+$$\upsilon'(x) = \cos(x)\left[-\frac{1}{x \cos(x)} \upsilon(x) + \frac{x^2}{\cos(x)}\right] = -\frac{1}{x}\upsilon(x) + x^2, \;\; \upsilon(a) = 0$$
+
+$$\upsilon^o(x) = \frac{C}{x}, \;\; \upsilon^{p}(x) = A x^3 = \frac{1}{4} x^3$$
+
+$$\upsilon(x) = \upsilon^o(x) + \upsilon^{p}(x) = \frac{C}{x} + \frac{x^3}{4} = \frac{x^3}{4} -\frac{a^4}{4x}$$
+
+$$y(x) = \frac{3x^4 + a^4}{4x^2\cos(x)}$$
+
+\subsection{Задание 5}
+Решить с помощью резольвенты (разрешающего ядра)
+\subsubsection{$\displaystyle y(x) =  \int_{0}^{x} s y(s)ds + 1$}
+
+\begin{equation*}
+ \left.\begin{aligned}
+        K &= K_1 = s\\
+        K_2 &= \int_{s}^{x} ts dt  = \frac{1}{2}s\left(x^2 - s^2\right)\\
+        K_3 &= \int_{s}^{x} \frac{1}{2} t s\left(t^2 - s^2\right) dt = \frac{1}{8}s(x^2-s^2)^2\\
+        K_4 &= \int_{s}^{x} \frac{1}{8} ts(t^2-s^2)^2 dt = \frac{1}{48}s(x^2-s^2)^3
+       \end{aligned}
+ \right\}
+ \qquad K_m = s\frac{\left(x^2-s^2\right)^{m-1}}{2^{m-1} (m-1)!}
+\end{equation*}
+
+$$R(x,s) = s \sum_{m=1}^{\infty} \frac{\left(x^2-s^2\right)^{m-1}}{2^{m-1} (m-1)!} = s\exp\left(\frac{x^2-s^2}{2}\right)$$
+
+$$y(x) = 1 + \exp\left(\frac{x^2}{2}\right)\int_{0}^{x} s\exp\left(-\frac{s^2}{2}\right)ds = \exp\left(\frac{x^2}{2}\right)$$
+
+\subsubsection{$\displaystyle y(x) =  -\int_{0}^{x} (x-s) y(s)ds + x$}
+
+\begin{equation*}
+ \left.\begin{aligned}
+        K &= K_1 = s-x\\
+        K_2 &= \int_{s}^{x} (t-x)(s-t) dt  = -\frac{1}{6}(s-x)^3\\
+        K_3 &= \int_{s}^{x} \frac{1}{6} (x-t) (t-s)^3 dt = \frac{1}{120}(s-x)^5\\
+        K_4 &= \int_{s}^{x} \frac{1}{120} (x-t) (s-t)^5 = -\frac{1}{5040}(s-x)^7
+       \end{aligned}
+ \right\}
+ \qquad K_m = (-1)^m\frac{(s-x)^{2m-1}}{(2m-1)!}
+\end{equation*}
+
+$$R(x,s) = \sum_{m=1}^{\infty} (-1)^m\frac{(s-x)^{2m-1}}{(2m-1)!} = -\sin(s-x)$$
+
+$$y(x) = x + \int_{0}^{x} \sin(s-x) s ds = \sin(x)$$
+
+\subsubsection{$\displaystyle y(x) =  -\int_{0}^{x} y(s)ds + \frac{x^2}{2} + x$}
+
+\begin{equation*}
+ \left.\begin{aligned}
+        K &= K_1 = -1\\
+        K_2 &= \int_{s}^{x} dt  = x-s\\
+        K_3 &= \int_{s}^{x} (s-t) dt = -\frac{1}{2}(x-s)^2\\
+        K_4 &= \int_{s}^{x} \frac{1}{2}(t-s)^2 = \frac{1}{6}(x-s)^3
+       \end{aligned}
+ \right\}
+ \qquad K_m = (-1)^m\frac{(x-s)^{m-1}}{(m-1)!}
+\end{equation*}
+
+$$R(x,s) = \sum_{m=1}^{\infty} (-1)^m\frac{(x-s)^{m-1}}{(m-1)!} = -\exp(s-x)$$
+
+$$y(x) = \frac{x^2}{2} + x - \int_{0}^{x} \exp(s-x)\left(\frac{s^2}{2} + s\right) ds = x$$
+
+\end{document} 
