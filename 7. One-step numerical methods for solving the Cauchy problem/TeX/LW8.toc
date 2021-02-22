@@ -1,0 +1,22 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\hskip 1em}Теоретическая часть}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {1.1.\hskip 1em}Введение}{3}{subsection.0.1.1}%
+\contentsline {subsubsection}{Основные понятия теории разностных схем}{3}{section*.2}%
+\contentsline {subsubsection}{Задача Коши}{4}{section*.3}%
+\contentsline {subsection}{\numberline {1.2.\hskip 1em}Метод Эйлера}{4}{subsection.0.1.2}%
+\contentsline {subsubsection}{Погрешность метода}{5}{section*.4}%
+\contentsline {subsection}{\numberline {1.3.\hskip 1em}Модифицированный метод Эйлера}{6}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4.\hskip 1em}Усовершенствованный метод Эйлера}{7}{subsection.0.1.4}%
+\contentsline {subsection}{\numberline {1.5.\hskip 1em}Метод Эйлера-Кромера}{8}{subsection.0.1.5}%
+\contentsline {subsection}{\numberline {1.6.\hskip 1em}Метод Рунге-Кутта четвёртого порядка}{8}{subsection.0.1.6}%
+\contentsline {section}{\numberline {2.\hskip 1em}Постановка задачи}{10}{section.0.2}%
+\contentsline {section}{\numberline {3.\hskip 1em}Программа}{11}{section.0.3}%
+\contentsline {subsubsection}{Задание А}{11}{section*.5}%
+\contentsline {subsubsection}{Задание Б}{13}{section*.6}%
+\contentsline {section}{\numberline {4.\hskip 1em}Результаты вычислений}{15}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.\hskip 1em}Задание А}{15}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.\hskip 1em}Задание Б}{16}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3.\hskip 1em}Задание С}{19}{subsection.0.4.3}%
+\contentsline {subsubsection}{Оптимальный выбор метода решения задач на колебательные процессы}{21}{section*.14}%
+\contentsline {section}{\numberline {5.\hskip 1em}Вывод}{23}{section.0.5}%
+\contentsfinish 

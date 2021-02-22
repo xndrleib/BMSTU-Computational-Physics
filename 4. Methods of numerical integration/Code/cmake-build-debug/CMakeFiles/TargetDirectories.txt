@@ -1,0 +1,3 @@
+/Users/kgb/Google Drive/Университет/7 Семестр/Вычислительная физика/Лабораторные работы/LW5/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kgb/Google Drive/Университет/7 Семестр/Вычислительная физика/Лабораторные работы/LW5/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kgb/Google Drive/Университет/7 Семестр/Вычислительная физика/Лабораторные работы/LW5/Code/cmake-build-debug/CMakeFiles/code.dir

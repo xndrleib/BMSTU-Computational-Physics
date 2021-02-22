@@ -1,0 +1,3 @@
+/Users/mistryukova/Documents/University/Computational_ph/lab10/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mistryukova/Documents/University/Computational_ph/lab10/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mistryukova/Documents/University/Computational_ph/lab10/Code/cmake-build-debug/CMakeFiles/Code.dir

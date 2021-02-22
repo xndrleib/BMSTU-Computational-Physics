@@ -1,0 +1,38 @@
+"C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\akhiz\Google Drive\Университет\7 Семестр\Вычислительная физика\Лабораторные работы\LW9\Code\LW9_T1"
+-- The C compiler identification is MSVC 19.23.28106.4
+-- The CXX compiler identification is MSVC 19.23.28106.4
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.2.2/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/akhiz/Google Drive/РЈРЅРёРІРµСЂСЃРёС‚РµС‚/7 РЎРµРјРµСЃС‚СЂ/Р’С‹С‡РёСЃР»РёС‚РµР»СЊРЅР°СЏ С„РёР·РёРєР°/Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹/LW9/Code/LW9_T1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake /nologo cmTC_55076\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_55076.dir\build.make /nologo -L                  CMakeFiles\cmTC_55076.dir\build
+    Building C object CMakeFiles/cmTC_55076.dir/testCCompiler.c.obj
+    	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.23.28105\bin\Hostx86\x86\cl.exe @C:\Users\akhiz\AppData\Local\Temp\nm1A33.tmp
+    testCCompiler.c
+    c1: fatal error C1083: Cannot open source file: 'C:\Users\akhiz\Google Drive\Oieaa?neoao\7 Naiano?\Au?eneeoaeuiay oeceea\Eaai?aoi?iua ?aaiou\LW9\Code\LW9_T1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c': No such file or directory
+    NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\14.23.28105\bin\Hostx86\x86\cl.exe' : return code '0x2'
+    Stop.
+    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/akhiz/Google Drive/РЈРЅРёРІРµСЂСЃРёС‚РµС‚/7 РЎРµРјРµСЃС‚СЂ/Р’С‹С‡РёСЃР»РёС‚РµР»СЊРЅР°СЏ С„РёР·РёРєР°/Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹/LW9/Code/LW9_T1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/akhiz/Google Drive/РЈРЅРёРІРµСЂСЃРёС‚РµС‚/7 РЎРµРјРµСЃС‚СЂ/Р’С‹С‡РёСЃР»РёС‚РµР»СЊРЅР°СЏ С„РёР·РёРєР°/Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹/LW9/Code/LW9_T1/cmake-build-debug/CMakeFiles/CMakeError.log".
