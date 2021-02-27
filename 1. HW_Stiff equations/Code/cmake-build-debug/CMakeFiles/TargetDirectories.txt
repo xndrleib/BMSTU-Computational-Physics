@@ -1,3 +1,0 @@
-/Users/kgb/Desktop/Computational-Physics/HW_1/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/kgb/Desktop/Computational-Physics/HW_1/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kgb/Desktop/Computational-Physics/HW_1/Code/cmake-build-debug/CMakeFiles/ex1.dir

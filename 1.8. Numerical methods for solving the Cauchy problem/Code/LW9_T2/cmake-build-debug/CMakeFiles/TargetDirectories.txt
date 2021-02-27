@@ -1,3 +1,0 @@
-/Users/mistryukova/Documents/University/Computational_ph/lab9/LW9_T2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mistryukova/Documents/University/Computational_ph/lab9/LW9_T2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mistryukova/Documents/University/Computational_ph/lab9/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir

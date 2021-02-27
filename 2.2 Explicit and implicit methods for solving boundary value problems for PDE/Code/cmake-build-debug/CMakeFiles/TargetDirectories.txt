@@ -1,3 +1,0 @@
-/cygdrive/d/WorkSpace/CLionProjects/HW2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/WorkSpace/CLionProjects/HW2/cmake-build-debug/CMakeFiles/KursUPD.dir
-/cygdrive/d/WorkSpace/CLionProjects/HW2/cmake-build-debug/CMakeFiles/edit_cache.dir
