@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kgb/Desktop/Computational-Physics/2.1 Simulation of neutron and photon trajectories/Code/main.cpp
+iostream
+-
+random
+-
+cmath
+-
+fstream
+-
+

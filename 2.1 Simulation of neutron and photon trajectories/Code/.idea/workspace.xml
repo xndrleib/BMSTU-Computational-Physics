@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="HW1" targetName="HW1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b76a2406-7196-4dfc-99e1-a121cc6e8062" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/CMakeFiles/untitled.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/cmake-build-debug/untitled.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task1_n10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task1_n20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task1_n3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task1_n5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task2_n15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task2_n16.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task2_n5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/Img/task2_n8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/LW2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Interpolation polynomials/TeX/LW2.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Numerical differentiation/LW3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Numerical differentiation/LW3.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/cmake-build-debug/code.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/Matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/Matrix2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N10_A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N10_B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N15_A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N15_B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N16_A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N16_B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N5_A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N5_B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N8_A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/Img/N8_B.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/LW4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Spline interpolation/TeX/LW4.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/code.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/cmake-build-debug/code.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/TeX/LW3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Methods of numerical integration/TeX/LW3.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/.idea/forallFunc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/forallFunc.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/forallFunc.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/cmake-build-debug/forallFunc.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/Img/I1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/Img/I2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/Img/I3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/Img/I3_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/Img/N100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/LW6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. The Monte Carlo method. Part I/TeX/LW6.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/.idea/LW7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/LW7.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/LW7.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/LW7.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/LW7.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/res8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/ris1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/ris2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/word1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/Img/word2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/LW7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. The Monte Carlo method. Part II/TeX/LW7.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/.idea/LW8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/LW8.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/LW8.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/LW8.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/.idea/LW8_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/LW8_1.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/LW8_1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/LW8_1.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/LW8_1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/Code/LW8_1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plEX_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF1_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plF_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer1_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plRESer_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS1_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_250.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/plVIS_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/ris1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/Img/ris1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/LW8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7. One-step numerical methods for solving the Cauchy problem/TeX/LW8.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/.idea/untitled2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/untitled2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/cmake-build-debug/untitled2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/.idea/untitled2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/CMakeFiles/untitled2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/untitled2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/cmake-build-debug/untitled2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/Code/LW9_T2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/N_10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/N_100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/N_100_W.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/N_50.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/N_50_W.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/tab2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/tab3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/Img/tab_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/LW9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Numerical methods for solving the Cauchy problem/TeX/LW9.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/.idea/Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Code.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/Code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/Code.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExA/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/.idea/LW10_21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/LW10_21.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/LW10_21.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/LW10_21.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/LW10_21.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/.idea/LW10_2True.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/LW10_2True.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/LW10_2True.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/LW10_2True.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/LW10_2True.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/Code/ExB_L/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS1_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS2_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/Img/plS4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/LW10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Numerical methods for solving boundary value problems for ODE/TeX/LW10.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Integral equations/HW.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Integral equations/HW.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/ex1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/ex1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/Euler_Method_N100_L1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/Implicit_Euler_Method_N100_L1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/Implicit_Method4_N100_L1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/ex1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/ex1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/ex1.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/cmake-build-debug/ex1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/Code/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/HW.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/HW.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl1001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl1002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl1003.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl251.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl252.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl2521.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl253.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl501.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl502.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW_Stiff equations/TeX/Img/pl503.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1p4LA9M5G38jZhSfkkFViluUhE0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HW1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HW1" TARGET_NAME="HW1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HW1" RUN_TARGET_NAME="HW1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b76a2406-7196-4dfc-99e1-a121cc6e8062" name="Default Changelist" comment="" />
+      <created>1614437270869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614437270869</updated>
+      <workItem from="1614437272940" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="212" key="GridCell.Tab.0.bottom" timestamp="1614437405754">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="212" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1614437405754" />
+    <state width="1750" height="212" key="GridCell.Tab.0.center" timestamp="1614437405752">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="212" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1614437405752" />
+    <state width="1750" height="212" key="GridCell.Tab.0.left" timestamp="1614437405752">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="212" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1614437405752" />
+    <state width="1750" height="212" key="GridCell.Tab.0.right" timestamp="1614437405753">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="212" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1614437405753" />
+  </component>
+</project>
